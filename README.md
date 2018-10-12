@@ -3,6 +3,12 @@ CodeFunDo++Project_Submission_Repository
 Generic Application which can be used in any kind of disaster/calamity. Create datasets of people locally so that they can communicate with each other. During calamity, streamline the data to maximize the efficiency of relief operation. 
 
 ## Before the disaster
+As soon as the warning is issued by the local government, Bing Maps of their locality will be downloaded
+## Features of our app
+* The user can fill their situation and severity of the condition they are in.
+* User can inform about other people or about his/her locality.
+* Datasets of people trapped locally will be created to intraconnect them and encourage self help.
+
 * Tagging people with location & information
 
 * Maps downloading
