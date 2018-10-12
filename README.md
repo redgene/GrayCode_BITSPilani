@@ -21,7 +21,7 @@ Image above shows the architecture diagram on how the application works. The aff
 
 * The data will then be processed on Azure Cloud. The analysed information will then be used to connect the volunteering groups among themselves and with people affected to maximize their efforts. The shortest path for the relief operation will be calculated using Bing Maps Routing API for effective contribution. Map will be updated in realtime with road-blocks, affected areas and nearest shelters, drinking water, helplines, medicines, transportation, etc. As mentioned before, local Bing maps (city/town) will be downloaded before the calamity will be administered by the Disaster Management Team and Goverment itself.
 
-* In case of remote regions the app will automatically try to repetedly send the compiled information as a distress to the cloud and guide them to take necessary steps meanwhile.
+* In case of remote regions the app will automatically try to repeatedly send the compiled information as a distress to the cloud and guide them to take necessary steps meanwhile.
 
 
 Azure Cloud Services to be leveraged: Bing Maps Routing APIs, Cloud Database and Graphing Algorithms on cloud functions.
