@@ -8,7 +8,9 @@ As soon as the warning is issued by the local government, Bing Maps of their loc
 * The user can fill their situation and severity of the condition they are in.
 * User can inform about other people or about his/her locality.
 * Datasets of people trapped locally will be created to intraconnect them and encourage self help.
-
+* The data will then be processed on Azure Cloud
+* The analysed information will then be used to connect the volunteering groups among themselves and maximize their efforts
+* The shortest path for the relief operation will be calculated using Bing Maps Routing API for effective contribution
 * Tagging people with location & information
 
 * Maps downloading
