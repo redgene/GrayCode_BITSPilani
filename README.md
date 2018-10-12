@@ -6,35 +6,13 @@ Generic Application which can be used in any kind of disaster/calamity. Create d
   <img src="https://github.com/redgene/GrayCode_BITSPilani/blob/master/InkedUntitled%20Diagram_LI.jpg" width="350" title="Architecture Diagram">
 </p>
 
+Image above shows the architecture diagram on how the application works. The affected people form small groups and upload their locations/ages/severity on the application. Then the rescue teams/volumteering groups take the optimized route to reach them.
+
 ## Before the disaster
-As soon as the warning is issued by the local government, Bing Maps of their locality will be downloaded
+As soon as the warning is issued by the local government, Bing Maps of their locality will be downloaded, this is done to ensure that even if there is no connectivity, they can help themselves to get out of the situation.
 ## Features of our app
-* The user can fill their situation and severity of the condition they are in.
-* User can inform about other people or about his/her locality.
-* Datasets of people trapped locally will be created to intraconnect them and encourage self help.
-* The data will then be processed on Azure Cloud
-* The analysed information will then be used to connect the volunteering groups among themselves and maximize their efforts
-* The shortest path for the relief operation will be calculated using Bing Maps Routing API for effective contribution
-* Tagging people with location & information
+* The user can fill their situation and severity of the condition they are in. User can inform about other people or about his/her locality or find their friends/family. Datasets of people trapped locally will be created to intraconnect them, this encourages them to form self help groups. 
+* The data will then be processed on Azure Cloud. The analysed information will then be used to connect the volunteering groups among themselves and with people affected to maximize their efforts. The shortest path for the relief operation will be calculated using Bing Maps Routing API for effective contribution. Map will be updated in realtime with road-blocks, affected areas and nearest shelters, drinking water, helplines, medicines, transportation, etc.
+* In case of remote regions the app will automatically try to repetedly send the compiled information as a distress to the cloud and guide them to take necessary steps meanwhile.
 
-* Maps downloading
-Local Bing maps (city/town) will be downloaded before the calamity. The application will be administered by the Disaster Management Team and Goverment itself.
-Tagging can be done by two sets of people:
-   1. People stuck in the situation themselves
-   2. People who can give information about their firends and family stuck OR about the situation locally
 
-* Automated messaging system
-People keep trying to reach out for help but since there is heavy networking problem. But still there are some 
-
-* Azure Cloud Services to be leveraged:
-  1. Bing Maps Routing APIs
-  2. Database
-  3. Graphing Algorithms
-
-In Pipeline:
-* Offline
-* Drones (Azure IoT and Cognitive Services)
-Audio Beacon for transmitting and receiving data. 
-
-* P2P
-* Bluetooth
