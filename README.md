@@ -10,7 +10,6 @@ Another core feature we'd be targeting is to establish coordination amongst the 
 
 Image above shows the architecture diagram on how the application works. The affected people form small groups and upload their locations/ages/severity on the application. Then the rescue teams/volumteering groups take the optimized route to reach them.
 
-## Before the disaster
 As soon as the warning is issued by the local government, Bing Maps of their locality will be downloaded, this is done to ensure that even if there is no connectivity, they can help themselves to get out of the situation.
 ## Features of our app
 * The user can fill their situation and severity of the condition they are in. User can inform about other people or about his/her locality or find their friends/family. Datasets of people trapped locally will be created to intraconnect them, this encourages them to form self help groups. Tagging can be done by two sets of people:
